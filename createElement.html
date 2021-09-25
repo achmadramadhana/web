@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dan</title>
+</head>
+<body>
+<div id="kotak"></div>
+<button id="btn">Tekan Aja</button>
+
+<script>
+    var btn = document.getElementById('btn');
+    btn.onclick = function(){
+        var img = document.createElement('img');
+        img.setAttribute('src', 'lha kok gitu.jpg');
+        var kotak = document.getElementById('kotak');
+        kotak.appendChild(img);
+    }
+</Script>
+
+</body>
+</html>
